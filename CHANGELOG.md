@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## <small>1.0.1 (2025-07-12)</small>
+
+* fix: icon image optimized ([e57e11e](https://github.com/jonpena/vscode-madrid-night-theme/commit/e57e11e))
+* fix: improve description and name ([61c469f](https://github.com/jonpena/vscode-madrid-night-theme/commit/61c469f))
+
 ## 1.0.0 (2025-07-12)
 
 * fix: add madrid night json theme ([57a7e81](https://github.com/jonpena/vscode-madrid-night-theme/commit/57a7e81))
