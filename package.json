@@ -1,0 +1,66 @@
+{
+  "name": "madrid-night-theme",
+  "displayName": "Madrid Night Theme",
+  "version": "0.0.0",
+  "description": "Un elegante tema de VS Code inspirado en el vibrante resplandor del centro de Madrid por la noche",
+  "categories": [
+    "Themes",
+    "Other"
+  ],
+  "keywords": [
+    "theme",
+    "contrast",
+    "dark",
+    "light",
+    "madrid",
+    "clean"
+  ],
+  "homepage": "https://github.com/jonpena/vscode-madrid-night-theme",
+  "bugs": {
+    "url": "https://github.com/jonpena/vscode-madrid-night-theme/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jonpena/vscode-madrid-night-theme"
+  },
+  "license": "MIT",
+  "publisher": "Jonpena",
+  "scripts": {
+    "package": "vsce package",
+    "prepare": "simple-git-hooks"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Madrid Night",
+        "uiTheme": "vs-dark",
+        "path": "./themes/madrid-night-color-theme.json"
+      }
+    ]
+  },
+  "simple-git-hooks": {
+    "pre-commit": "npx lint-staged",
+    "commit-msg": "npx commitlint --edit $1"
+  },
+  "lint-staged": {
+    "package.json": "sort-package-json"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/commit-analyzer": "^13.0.1",
+    "@semantic-release/git": "^10.0.1",
+    "@semantic-release/github": "^11.0.3",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/release-notes-generator": "^14.0.3",
+    "lint-staged": "^16.1.2",
+    "semantic-release": "^24.2.5",
+    "simple-git-hooks": "^2.13.0",
+    "sort-package-json": "^3.2.1"
+  },
+  "engines": {
+    "vscode": "^1.97.0"
+  },
+  "icon": "images/icon.png"
+}
