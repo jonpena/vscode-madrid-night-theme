@@ -44,7 +44,7 @@
       {
         "assets": [
           {
-            "path": "dist/*.vsix",
+            "path": "./*.vsix",
             "label": "vscode-madrid-night-theme-${nextRelease.version}.vsix"
           }
         ]
