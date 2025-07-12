@@ -2,6 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
+## <small>1.0.2 (2025-07-12)</small>
+
+* fix: add README file ([e031986](https://github.com/jonpena/vscode-madrid-night-theme/commit/e031986))
+* fix: fixing semantic-release not found build .vsix ([b3574d9](https://github.com/jonpena/vscode-madrid-night-theme/commit/b3574d9))
+
 ## <small>1.0.1 (2025-07-12)</small>
 
 * fix: icon image optimized ([e57e11e](https://github.com/jonpena/vscode-madrid-night-theme/commit/e57e11e))
