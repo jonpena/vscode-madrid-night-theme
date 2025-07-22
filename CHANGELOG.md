@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## <small>1.0.4 (2025-07-22)</small>
+
+* fix: update color values for window and UI elements in Madrid Night theme ([0820a88](https://github.com/jonpena/vscode-madrid-night-theme/commit/0820a88))
+
 ## <small>1.0.3 (2025-07-12)</small>
 
 * fix: setup dark mode banner in marketplace ([f5e3dc7](https://github.com/jonpena/vscode-madrid-night-theme/commit/f5e3dc7))
