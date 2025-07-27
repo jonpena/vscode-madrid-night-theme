@@ -495,7 +495,7 @@
         "string.quoted.docstring.multi.python constant.character.escape"
       ],
       "settings": {
-        "foreground": "#51597d"
+        "foreground": "#6a739b"
       }
     },
     {
@@ -516,7 +516,7 @@
         "log.date"
       ],
       "settings": {
-        "foreground": "#5a638c"
+        "foreground": "#6a739b"
       }
     },
     {
@@ -528,7 +528,7 @@
         "comment.block.documentation entity.name.type.instance"
       ],
       "settings": {
-        "foreground": "#646e9c"
+        "foreground": "#6a739b"
       }
     },
     {
@@ -542,7 +542,7 @@
         "constant.other.caps"
       ],
       "settings": {
-        "foreground": "#ff9e64"
+        "foreground": "#EBB722"
       }
     },
     {
@@ -594,7 +594,7 @@
       "name": "Storage - modifier, var, const, let",
       "scope": ["meta.var.expr storage.type", "storage.modifier"],
       "settings": {
-        "foreground": "#9d7cd8"
+        "foreground": "#9471d8"
       }
     },
     {
@@ -664,7 +664,7 @@
         "meta.embedded.inline.phpx punctuation.definition.tag.end.html"
       ],
       "settings": {
-        "foreground": "#89ddff"
+        "foreground": "#81E9FF"
       }
     },
     {
@@ -678,7 +678,7 @@
         "meta.import keyword.other"
       ],
       "settings": {
-        "foreground": "#7dcfff"
+        // "foreground": "#7dcfff"
       }
     },
     {
