@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## <small>1.0.6 (2025-07-27)</small>
+
+* fix: update foreground colors for various syntax elements in Madrid Night theme ([73b2e6e](https://github.com/jonpena/vscode-madrid-night-theme/commit/73b2e6e))
+
 ## <small>1.0.5 (2025-07-27)</small>
 
 * fix: update editor background color in Madrid Night theme ([d0c0180](https://github.com/jonpena/vscode-madrid-night-theme/commit/d0c0180))
